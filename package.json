@@ -1,0 +1,23 @@
+{
+  "name": "fastapi_practice",
+  "version": "1.0.0",
+  "description": "it is my first repository.\r <br>\r Author AsimAslam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asimaslam5051-hue/fastapi_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asimaslam5051-hue/fastapi_practice/issues"
+  },
+  "homepage": "https://github.com/asimaslam5051-hue/fastapi_practice#readme",
+  "dependencies": {
+    "@vercel/python": "^6.0.2"
+  }
+}
