@@ -52,7 +52,7 @@ def index2():
 def get_all_blogs(page, page_size):
     return{'message': f"all{page_size}blogs on page {page}"}
 #default value and optional_value
-@app.get('blog/all')
+@app.get('/blog/all')
 def get_all_blog(page = 10, page_size: Optional[int] = None):
     return{'message': f'all{page_size}blogs on page{page}'}
 @app.get('/blog/{id}/comments/{comments_id}')
@@ -92,7 +92,7 @@ def get_comment(id:int,comment_id:int,valid:bool=True,username:Optional[str] = N
     - **valid** optional query perameter
     - **username** optional query perameter
     """
-    return{'message':'blog_id{id},comment_id{comment_id},valid{valid},username{username}'}
+    return{'message':f'blog_id{id},comment_id{comment_id},valid{valid},username{username}'}
 
 class BlogType(str, Enum):
     short =  'short'

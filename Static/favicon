@@ -1,0 +1,22 @@
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+app = FastAPI()
+
+# Mount the static folder
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+# Serve favicons directly
+@app.get("/favicon.ico")
+async def favicon_ico():
+    return FileResponse("static/favicon.ico")
+
+@app.get("/favicon.png")
+async def favicon_png():
+    return FileResponse("static/favicon.png")
+
+# Example route
+@app.get("/")
+async def root():
+    return {"message": "Welcome to FastAPI!"}
