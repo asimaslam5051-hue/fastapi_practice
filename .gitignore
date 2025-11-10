@@ -1,1 +1,21 @@
-.vercel
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Node modules
+node_modules/
+
+# Vercel output
+.vercel/
+
+# Logs
+*.log
+
