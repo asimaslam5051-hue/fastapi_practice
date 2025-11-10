@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_yb9PaUdafijCyhhB8K5mdBXzVWTq",
+  "orgId": "team_g7jME31tI2Y9OFyUXeXCdzLg",
+  "projectName": "fastapi-practice",
+  "settings": {
+    "createdAt": 1758028007600,
+    "framework": "fastapi",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "22.x"
+  }
+}
